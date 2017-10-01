@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Fonts and linked files -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Dosis|Lobster|Pacifico|Quicksand" rel="stylesheet">
+<!--Page Background Area-->
+<div class="container-fluid">
+  <div class="header">
+    <h1>Wikipedia Article Viewer</h1>
+  </div>
+
+  <!--Article Search-->
+  <div id="random-article">
+    <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank_">Click here for a random article.</a>
+  </div>
+  <!--Search Bar-->
+  <div id="search-section">
+    <div id="search-bar">
+      <form id="wikiForm">
+        <input type="text" name="wiki-search" placeholder="???" />
+        <br>
+        <br>
+        <button type="submit" id="searchWiki" onclick="runSearch()">Click to search!</button>
+      </form>
+    </div>
+    <div id="search-text"></div>
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

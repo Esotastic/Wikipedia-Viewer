@@ -1,0 +1,57 @@
+body {
+  background-color: #9dedc8;
+  text-align: center;
+  font-family: Quicksand;
+}
+
+h1 {
+  font-family: Lobster;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+}
+
+#random-article {
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+/* Search Bar */
+#search-bar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+input[type="text"] {
+  background-color: #badeed;
+  border-radius: 20px;
+  height: 40px;
+  width: 25px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type="text"]:focus {
+  width: 50%;
+  outline: none;
+}
+
+.temp {
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.temp:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
